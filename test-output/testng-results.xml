@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-02T00:03:17 AEDT" name="Default suite" finished-at="2025-02-02T00:03:20 AEDT" duration-ms="2386">
+    <groups>
+    </groups>
+    <test started-at="2025-02-02T00:03:17 AEDT" name="Default test" finished-at="2025-02-02T00:03:20 AEDT" duration-ms="2386">
+      <class name="POJO.PostReqSpec">
+        <test-method signature="reqSpec()[pri:0, instance:POJO.PostReqSpec@49139829]" started-at="2025-02-02T00:03:17 AEDT" name="reqSpec" finished-at="2025-02-02T00:03:20 AEDT" duration-ms="2338" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reqSpec -->
+      </class> <!-- POJO.PostReqSpec -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

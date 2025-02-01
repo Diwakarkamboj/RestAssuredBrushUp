@@ -13,8 +13,10 @@ public class PostJson {
 		
 RestAssured.baseURI = "https://reqres.in/";
 
+	
 		
-	String response =	given()
+	String response =	
+			given()
 			.header("Content-type","application/json")
 			.body("{ \"name\": \"morpheus\", \"job\": \"leader\" }")
 		.when()
@@ -53,6 +55,8 @@ RestAssured.baseURI = "https://reqres.in/";
 		.assertThat()
 		.statusCode(200)
 		.body("data.id", equalTo(2));
-	}
+		
+	}		
+	
 
 }

@@ -3,23 +3,49 @@ package Files;
 public class Payload {
 
 	public static String addPlace() {
-		
-		return "{\\r\\n\"\r\n"
-				+ "				+ \"				\\\"  \\\\\\\"location\\\\\\\": {\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"    \\\\\\\"lat\\\\\\\": -38.383494,\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"    \\\\\\\"lng\\\\\\\": 33.427362\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"  },\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"  \\\\\\\"accuracy\\\\\\\": 50,\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"  \\\\\\\"name\\\\\\\": \\\\\\\"Rahul Shetty Academy\\\\\\\",\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"  \\\\\\\"phone_number\\\\\\\": \\\\\\\"(+91) 983 893 3937\\\\\\\",\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"  \\\\\\\"address\\\\\\\": \\\\\\\"29, side layout, cohen 09\\\\\\\",\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"  \\\\\\\"types\\\\\\\": [\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"    \\\\\\\"shoe park\\\\\\\",\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"    \\\\\\\"shop\\\\\\\"\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"  ],\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"  \\\\\\\"website\\\\\\\": \\\\\\\"http://rahulshettyacademy.com\\\\\\\",\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"  \\\\\\\"language\\\\\\\": \\\\\\\"French-IN\\\\\\\"\\\\r\\\\n\\\" + \\r\\n\"\r\n"
-				+ "				+ \"				\\\"}\\r\\n\"\r\n"
-				+ "				+ \"				\\\"\\\"";
+	    return "{\n" +
+	           "  \"location\": {\n" +
+	           "    \"lat\": -38.383494,\n" +
+	           "    \"lng\": 33.427362\n" +
+	           "  },\n" +
+	           "  \"accuracy\": 50,\n" +
+	           "  \"name\": \"Rahul Shetty Academy\",\n" +
+	           "  \"phone_number\": \"(+91) 983 893 3937\",\n" +
+	           "  \"address\": \"29, side layout, cohen 09\",\n" +
+	           "  \"types\": [\n" +
+	           "    \"shoe park\",\n" +
+	           "    \"shop\"\n" +
+	           "  ],\n" +
+	           "  \"website\": \"http://rahulshettyacademy.com\",\n" +
+	           "  \"language\": \"French-IN\"\n" +
+	           "}";
 	}
+
+	
+	public static String coursePrice() {
+	    return "{\n" +
+	           "  \"dashboard\": {\n" +
+	           "    \"purchaseAmount\": 910,\n" +
+	           "    \"website\": \"rahulshettyacademy.com\"\n" +
+	           "  },\n" +
+	           "  \"courses\": [\n" +
+	           "    {\n" +
+	           "      \"title\": \"Selenium Python\",\n" +
+	           "      \"price\": 50,\n" +
+	           "      \"copies\": 6\n" +
+	           "    },\n" +
+	           "    {\n" +
+	           "      \"title\": \"Cypress\",\n" +
+	           "      \"price\": 40,\n" +
+	           "      \"copies\": 4\n" +
+	           "    },\n" +
+	           "    {\n" +
+	           "      \"title\": \"RPA\",\n" +
+	           "      \"price\": 45,\n" +
+	           "      \"copies\": 10\n" +
+	           "    }\n" +
+	           "  ]\n" +
+	           "}";
+	}
+
 }
